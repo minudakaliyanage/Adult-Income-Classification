@@ -58,15 +58,15 @@ Overall accuracy is almost identical. **Random Forest ranks examples better (hig
 
 | Notebook | Description |
 |---|---|
-| `MLCW-Final.ipynb` | **Final submission:** EDA, cleaning, SMOTE, Naive Bayes vs Random Forest, all evaluation plots |
-| `MLCW2.ipynb` | Second iteration with extra EDA (boxplots, pair plots, correlation heatmap, feature importance) |
-| `MLCW1.ipynb` | First iteration |
+| `notebooks/adult_income_classification.ipynb` | ⭐ **Final submission:** EDA, cleaning, SMOTE, Naive Bayes vs Random Forest, all evaluation plots |
+| `archive/MLCW2.ipynb` | Second iteration with extra EDA (boxplots, pair plots, correlation heatmap, feature importance) |
+| `archive/MLCW1.ipynb` | First iteration |
 
 ## 🚀 Running
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
-jupyter notebook MLCW-Final.ipynb
+jupyter notebook notebooks/adult_income_classification.ipynb
 ```
 
 The dataset is downloaded automatically from the UCI repository when the notebook runs.
